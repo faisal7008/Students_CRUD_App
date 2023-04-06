@@ -19,6 +19,10 @@ const connectDB = async () => {
       );
   
       console.log('MongoDB is Connected...');
+      // Start the server
+      app.listen(3001, () => {
+        console.log('Server started');
+      });
     } catch (err) {
       console.error(err.message);
       process.exit(1);
@@ -78,7 +82,3 @@ app.delete('/students/:id', async (req, res) => {
   }
 });
 
-// Start the server
-app.listen(3001, () => {
-  console.log('Server started');
-});
