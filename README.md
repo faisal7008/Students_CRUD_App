@@ -14,17 +14,18 @@ MongoDB
 # Installation:
 
 1. Clone the repository to your local machine:
-    git clone https://github.com/your-username/student-crud-api.git
+    git clone https://github.com/faisal7008/Students_CRUD_App
 2. Install the dependencies:
-    cd student-crud-api
+    cd Students_CRUD_App
     npm install
 3. Start the MongoDB server:
     mongod
-    Start the Node.js server:
-4. npm start
-5. Use a tool like Postman to send HTTP requests to the API endpoints.
+4. Start the Node.js server:
+    npm start
+5. Now, You can access the server at http://localhost:3001
+6. Use a tool like Postman to send HTTP requests to the API endpoints.
 
-API Endpoints
+# API Endpoints
 
 The following endpoints are available:
 
